@@ -229,6 +229,7 @@ with Jop_market:
     st.line_chart(filtered_data.set_index('Year')
                   [selected_columns], color=["#1B365D"]) 
     regeion_un= gd.read_file("gadm41_SAU_1.shp")
+    regeion_un=regeion_un.to_crs(epsg=4326)
     un_data=pd.read_excel("unempl_rate _region.xlsx")
     regeion_un=regeion_un.merge(
     un_data,
