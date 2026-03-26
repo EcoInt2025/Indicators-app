@@ -300,7 +300,7 @@ with external_sector :
 
 ### الصفحة الثالثة 
 with relations:    
-   df_dash=pd.read_excel("Dashb.xlsx", sheet_name="relations")
+    df_dash=pd.read_excel("Dashb.xlsx", sheet_name="relations")
     st.subheader("العلاقة بين المؤشرات") 
     st.write("حُدد مسبقًا الناتج المحلي الحقيقي بالمتغير المراد تفسيره (Y) ")
     Year="Year"
