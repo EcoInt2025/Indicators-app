@@ -85,7 +85,7 @@ df_dash=df_dash.sort_values("Year")
 ### الصفحة الأولى
 with pulse: 
     st.title(" الاقتصاد الان ")
-   st.write("بناءً على تقارير 2024م")
+    st.write("بناءً على تقارير 2024م")
     col1, col2, col3= st.columns(3)
 
     with col1: 
