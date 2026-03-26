@@ -403,7 +403,7 @@ with events:
 
 ###  الصفحة الخامسة التنبؤات
 with forecast: 
-      st.header("التنبؤات المستقبلية")
+      st.header(" التنبؤات المستقبلية للناتج المحلي الاجمالي")
       df_forecast = pd.read_excel("Dashb.xlsx", sheet_name="forecast")
       year_col = "Year"
       actual_col = "الناتج المحلي الحقيقي الفعلي "
