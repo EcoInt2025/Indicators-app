@@ -565,7 +565,7 @@ with forecast:
            height=550,
            showlegend=False
        )
-       st.plotly_chart(fig_bar, use_container_width=True)
+       st.plotly_chart(fig_bar,  width='content')
       with st.expander("المنهجية"):
        st.write("""
        - **وزارة المالية:** توقع رسمي منشور من الجهة الحكومية.
