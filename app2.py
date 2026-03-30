@@ -529,7 +529,7 @@ with forecast:
 """, unsafe_allow_html=True)
       
       fig_f.update_xaxes(dtick=1)
-      st.plotly_chart(fig_f, use_container_width=True)
+      st.plotly_chart(fig_f, width='content')
    
    # مقارنة سنة مختارة
   
